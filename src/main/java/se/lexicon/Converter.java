@@ -33,6 +33,9 @@ public class Converter {
 
             double result = value(input , amount);
             System.out.println("Amount converted: " + result);
+
+            DateTime.localTime();
+
         }
     }
 
