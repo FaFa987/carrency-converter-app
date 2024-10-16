@@ -24,6 +24,10 @@ public class Converter {
             if (input == 5) {
                 break;
             }
+            else if (input > 5 || input < 1) {
+                System.out.println("Invalid input");
+                break;
+            }
 
             double amount = getAmount("Please enter the amount you would like to convert: ");
 

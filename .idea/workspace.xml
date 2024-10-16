@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4044184-4844-4b15-9f39-76c6ec1bf6fc" name="Changes" comment="get amount">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/CurrencyOperation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/lexicon/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="f4044184-4844-4b15-9f39-76c6ec1bf6fc" name="Changes" comment="result" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729062796243</updated>
-      <workItem from="1729062797294" duration="12456000" />
+      <workItem from="1729062797294" duration="12993000" />
     </task>
     <task id="LOCAL-00001" summary="converter options">
       <option name="closed" value="true" />
@@ -124,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729113131254</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="value">
+      <option name="closed" value="true" />
+      <created>1729114347406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729114347406</updated>
+    </task>
+    <task id="LOCAL-00005" summary="result">
+      <option name="closed" value="true" />
+      <created>1729114507060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729114507060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +145,8 @@
     <MESSAGE value="converter options" />
     <MESSAGE value="switch case" />
     <MESSAGE value="get amount" />
-    <option name="LAST_COMMIT_MESSAGE" value="get amount" />
+    <MESSAGE value="value" />
+    <MESSAGE value="result" />
+    <option name="LAST_COMMIT_MESSAGE" value="result" />
   </component>
 </project>
