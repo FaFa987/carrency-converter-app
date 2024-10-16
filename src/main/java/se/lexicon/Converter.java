@@ -28,6 +28,7 @@ public class Converter {
             double amount = getAmount("Please enter the amount you would like to convert: ");
 
             double result = value(input , amount);
+            System.out.println("Amount converted: " + result);
         }
     }
 
