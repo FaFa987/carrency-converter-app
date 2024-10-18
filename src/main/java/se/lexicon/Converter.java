@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Converter {
 
     public static void showMenu() {
+        DateTime.localTime();
         System.out.println("Currency Converter:");
         System.out.println("1. Convert SEK to USD");
         System.out.println("2. Convert USD to SEK");
@@ -21,32 +22,32 @@ public class Converter {
             System.out.println("Choose from the above options:");
             int input = scanner.nextInt();
 
-            if (input == 5) {
+            if (input >= 1 && input < 5) {
+                double amount = getAmount("Please enter the amount you would like to convert: ");
+                performOperation(input, amount);
+            } else if(input == 5){
                 break;
+            } else {
+                System.out.println("You have entered an invalid input");
             }
-            else if (input > 5 || input < 1) {
-                System.out.println("Invalid input");
-                break;
-            }
-
-            double amount = getAmount("Please enter the amount you would like to convert: ");
-
-            double result = value(input , amount);
-            System.out.println("Amount converted: " + result);
-
-            DateTime.localTime();
-
         }
     }
 
-    public static double value(int input, double amount) {
-        return switch (input) {
-            case 1 -> amount * 0.01;
-            case 2 -> amount * 0.02;
-            case 3 -> amount * 0.03;
-            case 4 -> amount * 0.04;
-            default -> amount;
-        };
+    public static void performOperation(int input, double amount) {
+        switch (input) {
+            case 1:
+                System.out.println("Result (SEK to USD): " + Operation.convertSekToUsd(amount));
+                break;
+            case 2:
+                System.out.println("Result (USD to SEK): " + Operation.convertUsdToSek(amount));
+                break;
+            case 3:
+                System.out.println("Result (SEK to EURO): " + Operation.convertSekToEuro(amount));
+                break;
+            case 4:
+                System.out.println("Result (EURO to SEK): " + Operation.convertEuroToSek(amount));
+                break;
+        }
     }
 
     public static double getAmount(String message) {
